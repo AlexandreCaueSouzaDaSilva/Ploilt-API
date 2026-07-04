@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `c:/Users/caue8/Ploilt-API'
+make.exe: Leaving directory `c:/Users/caue8/Ploilt-API'
+ 
+make.exe: *** No targets specified and no makefile found.  Stop.
+
