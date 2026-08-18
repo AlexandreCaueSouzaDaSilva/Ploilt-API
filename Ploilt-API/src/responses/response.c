@@ -37,11 +37,8 @@ conn,
 "Content-Type: application/json\r\n\r\n"
 
 "{"
-
 "\"status\": %d," // Status do erro
 "\"error\": \"%s\"" // Mensagem de erro
-
-
 "}",
 
 status,

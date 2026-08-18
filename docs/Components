@@ -1,0 +1,21 @@
+Etapas do Programa (Até o momento):
+
+Feito até o momento:
+ server
+ routes
+ controllers
+ response
+ request
+
+Em Andamento:
+-
+
+
+Falta:
+
+ cJSON
+ logger
+ middleware
+ configuração
+ banco de dados
+ CLI

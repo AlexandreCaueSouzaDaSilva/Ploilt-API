@@ -7,12 +7,14 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 
 # This program built for i386-pc-mingw32
 
-# Make data base, printed on Fri Jul 03 22:25:21 2026
+# Make data base, printed on Tue Aug 18 20:05:29 2026
 
 # Variables
 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
+# environment
+EFC_23560_2283032206 = 1
 # automatic
 ?F = $(notdir $?)
 # environment
@@ -36,13 +38,13 @@ SHELL := sh.exe
 # environment
 WINDIR = C:\Windows
 # environment
-VSCODE_NLS_CONFIG = {"userLocale":"pt-br","osLocale":"pt-br","resolvedLanguage":"pt-br","defaultMessagesFile":"C:\\Users\\caue8\\AppData\\Local\\Programs\\Microsoft VS Code\\7e7950df89\\resources\\app\\out\\nls.messages.json","languagePack":{"translationsConfigFile":"C:\\Users\\caue8\\AppData\\Roaming\\Code\\clp\\169d1b2d77a8d0fc9808162319d26d00.pt-br\\tcf.json","messagesFile":"C:\\Users\\caue8\\AppData\\Roaming\\Code\\clp\\169d1b2d77a8d0fc9808162319d26d00.pt-br\\7e7950df89d055b5a378379db9ee14290772148a\\nls.messages.json","corruptMarkerFile":"C:\\Users\\caue8\\AppData\\Roaming\\Code\\clp\\169d1b2d77a8d0fc9808162319d26d00.pt-br\\corrupted.info"},"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"169d1b2d77a8d0fc9808162319d26d00.pt-br","_languagePackSupport":true,"_translationsConfigFile":"C:\\Users\\caue8\\AppData\\Roaming\\Code\\clp\\169d1b2d77a8d0fc9808162319d26d00.pt-br\\tcf.json","_cacheRoot":"C:\\Users\\caue8\\AppData\\Roaming\\Code\\clp\\169d1b2d77a8d0fc9808162319d26d00.pt-br","_resolvedLanguagePackCoreLocation":"C:\\Users\\caue8\\AppData\\Roaming\\Code\\clp\\169d1b2d77a8d0fc9808162319d26d00.pt-br\\7e7950df89d055b5a378379db9ee14290772148a","_corruptedFile":"C:\\Users\\caue8\\AppData\\Roaming\\Code\\clp\\169d1b2d77a8d0fc9808162319d26d00.pt-br\\corrupted.info"}
+VSCODE_NLS_CONFIG = {"userLocale":"pt-br","osLocale":"pt-br","resolvedLanguage":"pt-br","defaultMessagesFile":"C:\\Users\\caue8\\AppData\\Local\\Programs\\Microsoft VS Code\\a5b5009513\\resources\\app\\out\\nls.messages.json","languagePack":{"translationsConfigFile":"C:\\Users\\caue8\\AppData\\Roaming\\Code\\clp\\f71151e941f71f3f6eaf9dfe88270459.pt-br\\tcf.json","messagesFile":"C:\\Users\\caue8\\AppData\\Roaming\\Code\\clp\\f71151e941f71f3f6eaf9dfe88270459.pt-br\\a5b500951314efd502d07465bd138dfbd714a960\\nls.messages.json","corruptMarkerFile":"C:\\Users\\caue8\\AppData\\Roaming\\Code\\clp\\f71151e941f71f3f6eaf9dfe88270459.pt-br\\corrupted.info"},"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"f71151e941f71f3f6eaf9dfe88270459.pt-br","_languagePackSupport":true,"_translationsConfigFile":"C:\\Users\\caue8\\AppData\\Roaming\\Code\\clp\\f71151e941f71f3f6eaf9dfe88270459.pt-br\\tcf.json","_cacheRoot":"C:\\Users\\caue8\\AppData\\Roaming\\Code\\clp\\f71151e941f71f3f6eaf9dfe88270459.pt-br","_resolvedLanguagePackCoreLocation":"C:\\Users\\caue8\\AppData\\Roaming\\Code\\clp\\f71151e941f71f3f6eaf9dfe88270459.pt-br\\a5b500951314efd502d07465bd138dfbd714a960","_corruptedFile":"C:\\Users\\caue8\\AppData\\Roaming\\Code\\clp\\f71151e941f71f3f6eaf9dfe88270459.pt-br\\corrupted.info"}
 # environment
 VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
 ONEDRIVE = C:\Users\caue8\OneDrive
 # environment
-PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+EFC_23560_3789132940 = 1
 # makefile
 MAKEFILE_LIST := 
 # environment
@@ -50,9 +52,11 @@ FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 TMP = C:\Users\caue8\AppData\Local\Temp
 # environment
-MXC_BIN_DIR = c:\Users\caue8\AppData\Local\Programs\Microsoft VS Code\7e7950df89\resources\app\node_modules\@microsoft\mxc-sdk\bin
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
 # environment
-EFC_16620_2283032206 = 1
+MXC_BIN_DIR = c:\Users\caue8\AppData\Local\Programs\Microsoft VS Code\a5b5009513\resources\app\node_modules.asar.unpacked\@microsoft\mxc-sdk\bin
+# environment
+EFC_23560_1592913036 = 1
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
@@ -60,7 +64,7 @@ PROGRAMDATA = C:\ProgramData
 # environment
 VSCODE_CWD = C:\Users\caue8\AppData\Local\Programs\Microsoft VS Code
 # environment
-PATH = C:\Python313\Scripts\;C:\Python313\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Tailscale\;C:\Program Files\Git\cmd;C:\msys64\ucrt64\bin;C:\Program Files (x86)\GnuWin32\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Python313\Scripts\;C:\Python313\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Tailscale\;C:\Program Files\Git\cmd;C:\msys64\ucrt64\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Users\caue8\AppData\Local\Microsoft\WindowsApps;C:\Users\caue8\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\caue8\AppData\Roaming\npm;C:\msys64\mingw64\bin;C:\php;C:\Users\caue8\AppData\Local\ComposerSetup\bin;C:\Users\caue8\AppData\Roaming\Composer\vendor\bin;C:\Users\caue8\AppData\Local\ComposerSetup\bin;C:\Users\caue8\AppData\Local\ComposerSetup\bin;
+PATH = C:\Program Files\Eclipse Adoptium\jdk-8.0.502.7-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-25.0.4.7-hotspot\bin;C:\Python313\Scripts\;C:\Python313\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Tailscale\;C:\Program Files\Git\cmd;C:\msys64\ucrt64\bin;C:\Program Files (x86)\GnuWin32\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Python313\Scripts\;C:\Python313\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Tailscale\;C:\Program Files\Git\cmd;C:\msys64\ucrt64\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Users\caue8\AppData\Local\Microsoft\WindowsApps;C:\Users\caue8\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\caue8\AppData\Roaming\npm;C:\msys64\mingw64\bin;C:\php;C:\Users\caue8\AppData\Local\ComposerSetup\bin;C:\Users\caue8\AppData\Roaming\Composer\vendor\bin;C:\Users\caue8\AppData\Local\ComposerSetup\bin;C:\Users\caue8\AppData\Local\ComposerSetup\bin;
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # environment
@@ -70,27 +74,21 @@ CHOCOLATEYLASTPATHUPDATE = 133864636123692833
 # environment
 PROCESSOR_ARCHITECTURE = x86
 # environment
-EFC_16620_3789132940 = 1
-# environment
 USERPROFILE = C:\Users\caue8
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
 ALLUSERSPROFILE = C:\ProgramData
 # environment
-EFC_16620_1592913036 = 1
-# environment
 NUMBER_OF_PROCESSORS = 12
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives
-# environment
-GIT_CONFIG_KEY_0 = safe.bareRepository
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8616_ALILTRCSMKMBANTR
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_26220_QNAWXMZYKPOBHGCI
 # environment
 COMPUTERNAME = BOOKCAUE
 # environment
@@ -98,19 +96,21 @@ PROGRAMFILES = C:\Program Files (x86)
 # environment
 DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # environment
+EFC_23560_2775293581 = 1
+# environment
 USERNAME = caue8
 # environment
 PUBLIC = C:\Users\Public
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\caue8\AppData\Roaming\Code\CachedData\7e7950df89d055b5a378379db9ee14290772148a
+EFC_23560_1262719628 = 1
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\caue8\AppData\Roaming\Code\CachedData\a5b500951314efd502d07465bd138dfbd714a960
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 LOGONSERVER = \\BOOKCAUE
-# environment
-ONEDRIVECONSUMER = C:\Users\caue8\OneDrive
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
@@ -120,25 +120,21 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
+EFC_23560_4126798990 = 1
+# environment
 VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # default
 MAKE_VERSION := 3.81
 # environment
 COPILOT_OTEL_FILE_EXPORTER_PATH = \\.\nul
-# environment
-EFC_16620_2775293581 = 1
 # makefile
 .DEFAULT_GOAL := 
 # environment
 APPLICATION_INSIGHTS_NO_STATSBEAT = true
 # environment
-EFC_16620_1262719628 = 1
-# environment
 PROGRAMFILES(X86) = C:\Program Files (x86)
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
-# environment
-GIT_CONFIG_VALUE_0 = explicit
 # environment
 LOCALAPPDATA = C:\Users\caue8\AppData\Local
 # environment
@@ -156,7 +152,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 154 Stepping 4, GenuineIntel
 # environment
 OS = Windows_NT
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\ecdb0cc4-1.126.0-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\ecdb0cc4-1.133.0-main-sock
 # environment
 HOMEPATH = \Users\caue8
 # environment
@@ -171,8 +167,6 @@ MFLAGS = -Rrqp
 SYSTEMROOT = C:\Windows
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
-# environment
-EFC_16620_4126798990 = 1
 # automatic
 +F = $(notdir $+)
 # environment
@@ -189,8 +183,6 @@ MAKEFILES :=
 LC_ALL = C
 # automatic
 ^F = $(notdir $^)
-# environment
-GIT_CONFIG_COUNT = 1
 # default
 SUFFIXES := 
 # environment
@@ -208,11 +200,11 @@ PROCESSOR_LEVEL = 6
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 8616
+VSCODE_PID = 26220
 # environment
 USERDOMAIN_ROAMINGPROFILE = BOOKCAUE
 # variable set hash-table stats:
-# Load=100/1024=10%, Rehash=0, Collisions=9/117=8%
+# Load=96/1024=9%, Rehash=0, Collisions=10/113=9%
 
 # Pattern-specific Variable Values
 
@@ -222,29 +214,31 @@ USERDOMAIN_ROAMINGPROFILE = BOOKCAUE
 
 # : could not be stat'd.
 # C:\Program Files\Docker\Docker\resources\bin (key C:/Program Files/Docker/Docker/resources/bin, mtime 1778712662): 13 files, no impossibilities.
-# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1757720246): 29 files, no impossibilities.
-# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1779927580): 143 files, no impossibilities.
-# . (key c:/Users/caue8/Ploilt-API, mtime 1781660429): 8 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1784912401): 29 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1785394178): 143 files, no impossibilities.
+# . (key c:/Users/caue8/Ploilt-API, mtime 1783882314): 9 files, no impossibilities.
 # C:\php (key C:/php, mtime 1778799906): 41 files, no impossibilities.
 # C:\ProgramData\chocolatey\bin (key C:/ProgramData/chocolatey/bin, mtime 1741990150): 6 files, no impossibilities.
 # C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1741989805): 14 files, no impossibilities.
 # C:\msys64\ucrt64\bin (key C:/msys64/ucrt64/bin, mtime 1743199963): 63 files, no impossibilities.
 # C:\Users\caue8\AppData\Local\ComposerSetup\bin (key C:/Users/caue8/AppData/Local/ComposerSetup/bin, mtime 1763226221): 5 files, no impossibilities.
-# C:\Users\caue8\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/caue8/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1782494696): 5 files, no impossibilities.
+# C:\Users\caue8\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/caue8/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1786974871): 5 files, no impossibilities.
 # C:\Program Files\Tailscale\ (key C:/Program Files/Tailscale/, mtime 1744924465): 6 files, no impossibilities.
 # C:\Windows\System32\OpenSSH\: could not be stat'd.
 # C:\Users\caue8\AppData\Roaming\npm (key C:/Users/caue8/AppData/Roaming/npm, mtime 1779759757): 27 files, no impossibilities.
-# C:\Windows (key C:/Windows, mtime 1781976441): 132 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1786948728): 133 files, no impossibilities.
 # C:\Users\caue8\AppData\Roaming\Composer\vendor\bin: could not be stat'd.
 # C:\Python313\ (key C:/Python313/, mtime 1741990148): 17 files, no impossibilities.
 # C:\Python313\Scripts\ (key C:/Python313/Scripts/, mtime 1741990148): 5 files, no impossibilities.
-# C:\Users\caue8\AppData\Local\Microsoft\WindowsApps (key C:/Users/caue8/AppData/Local/Microsoft/WindowsApps, mtime 1783033304): 50 files, no impossibilities.
+# C:\Program Files\Eclipse Adoptium\jdk-8.0.502.7-hotspot\bin (key C:/Program Files/Eclipse Adoptium/jdk-8.0.502.7-hotspot/bin, mtime 1786967733): 101 files, no impossibilities.
+# C:\Users\caue8\AppData\Local\Microsoft\WindowsApps (key C:/Users/caue8/AppData/Local/Microsoft/WindowsApps, mtime 1786846443): 52 files, no impossibilities.
 # C:\msys64\mingw64\bin (key C:/msys64/mingw64/bin, mtime 1734590527): 2 files, no impossibilities.
 # C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1747957860): 13 files, no impossibilities.
-# C:\Windows\system32 (key C:/Windows/system32, mtime 1782613622): 2885 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1787084867): 2884 files, no impossibilities.
+# C:\Program Files\Eclipse Adoptium\jdk-25.0.4.7-hotspot\bin (key C:/Program Files/Eclipse Adoptium/jdk-25.0.4.7-hotspot/bin, mtime 1786847536): 129 files, no impossibilities.
 # C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1743555057): 5 files, no impossibilities.
 
-# 3469 files, no impossibilities in 23 directories.
+# 3702 files, no impossibilities in 25 directories.
 
 # Implicit Rules
 
@@ -306,7 +300,7 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Fri Jul 03 22:25:21 2026
+# Finished Make data base on Tue Aug 18 20:05:29 2026
 
  
 make.exe: *** No rule to make target `all'.  Stop.

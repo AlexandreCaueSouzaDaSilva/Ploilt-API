@@ -7,6 +7,20 @@ int health_handler(
     void *cbdata
 ){
 
+// Implementação
+
+(void)cbdata;
+
+send_json(
+    conn,
+    200,
+    "{" // open
+    "\"status\": 200,"
+    "\"message\": \"PLOILT API rodando...\""
+    "}" // close da aspas
+);
+
+
 return 200;
 
-}
+};

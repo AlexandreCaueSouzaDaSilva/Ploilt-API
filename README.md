@@ -97,27 +97,28 @@ Clients / Backends:
 
 ```bash
 ploilt-api/
-├── src/
-│   ├── server.c
-│   ├── router.c
-│   ├── request.c
-│   ├── response.c
-│   ├── json_parser.c
-│   └── logger.c
-│
-├── include/
-│   ├── server.h
-│   ├── router.h
-│   ├── request.h
-│   ├── response.h
-│   └── logger.h
-│
-├── libs/
-│   ├── civetweb/
-│   └── cjson/
-│
-├── main.c
-└── README.md
+
+ src/
+   controllers/
+   - health.c
+   - health.h
+   request/
+   - request.c
+   - request.h
+   responses/
+   - response.c
+   - response.h
+   routes/
+   - routes.c
+   - routes.h
+   utils/
+   - logger.c
+   - logger.h
+- main.c
+- server.c
+- server.h
+ 
+
 ```
 
 ---
