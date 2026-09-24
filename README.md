@@ -1,107 +1,63 @@
 # PLOILT API
 
-PLOILT API é um servidor HTTP modular escrito em C, projetado para funcionar como uma camada universal de comunicação entre aplicações de diferentes linguagens.
-
-O projeto recebe requisições HTTP, processa dados e responde em JSON, permitindo integração entre frontend, backend e clientes diversos.
-
-
+PLOILT API é um servidor HTTP desenvolvido em C. O projeto tem como objetivo criar uma API simples e modular, capaz de receber requisições HTTP, processar dados e retornar respostas em JSON.
 
 ## Objetivo
 
-Criar uma API leve, rápida e modular em C que possa:
-
-- Receber requisições HTTP
-- Processar dados de entrada
-- Retornar respostas padronizadas em JSON
-- Integrar aplicações independentemente da linguagem
-
-
-
-## Principais funcionalidades
-
-### Servidor HTTP
-- Suporte a métodos:
-  - GET
-  - POST
-  - PUT
-  - DELETE
-
-### Processamento de requisições
-- Parsing de JSON
-- Query strings
-- Headers HTTP
-
-Exemplo:
-
-GET /users?id=1
-
-Headers:
-Authorization: Bearer token
-
-Body:
-{
-   "name": "Kaka"
-}
-
----
-
-## Resposta universal
-
-Todas as respostas seguem padrão JSON.
-
-### Sucesso
-```json
-{
-   "status": 200,
-   "message": "success",
-   "data": {}
-}
-```
-
-### Erro
-```json
-{
-   "status": 404,
-   "error": "Not found"
-}
-```
-
----
-
-## Integrações suportadas
-
-Frontend:
-- JavaScript
-- React
-- Vue
-
-Clients / Backends:
-- Python
-- Java
-- Go
-- Node.js
-- C#
-- Qualquer linguagem com suporte HTTP
-
----
+* Receber requisições HTTP
+* Processar dados enviados pelo cliente
+* Trabalhar com JSON
+* Retornar respostas em JSON
+* Permitir integração com outras aplicações
 
 ## Tecnologias
 
-- C
-- CivetWeb
-- cJSON
+* C
+* CivetWeb
+* cJSON
 
----
+## Funcionalidades
+
+### Servidor HTTP
+
+* GET
+* POST
+* Rotas HTTP
+* Respostas em JSON
+
+### Requisições
+
+* Método HTTP
+* URI
+* Query string
+* Headers
+* Corpo da requisição
+
+### JSON
+
+O projeto utiliza a biblioteca cJSON para realizar o parsing dos dados JSON recebidos.
+
+Exemplo:
+
+```json
+{
+    "name": "Kaka"
+}
+```
 
 ## Estrutura do projeto
 
-```bash
-ploilt-api/
+```text
+PLOILT-API/
 
  src/
    controllers/
    - health.c
    - health.h
+   json/
+   - json.c
+   - json.h
+   - test_cjson.c
    request/
    - request.c
    - request.h
@@ -114,62 +70,12 @@ ploilt-api/
    utils/
    - logger.c
    - logger.h
-- main.c
-- server.c
-- server.h
- 
-
+ - main.c
+ - server.c
+ - server.h
 ```
 
----
-
-## CLI
-
-Comando:
-
-```bash
-ploilt --view
-```
-
-Saída:
-
-```bash
-Port: 8080
-API: running
-Clients connected: 5
-Memory: 12MB
-Routes loaded: 8
-```
-
-Permite monitoramento em tempo real da aplicação.
-
----
-
-## Roadmap
-
-### v0.1
-- [x] Servidor HTTP
-- [x] GET e POST
-- [x] Respostas JSON
-
-### v0.2
-- [ ] Parsing JSON
-- [ ] Query strings
-- [ ] Headers
-
-### v0.3
-- [ ] Middleware
-- [ ] Logging
-- [ ] Configuração dinâmica
-
-### v1.0
-- [ ] CLI completa
-- [ ] Arquivo de configuração
-- [ ] Documentação oficial
-
----
-
-## Exemplo de uso
+## Exemplo
 
 Requisição:
 
@@ -182,8 +88,8 @@ Body:
 
 ```json
 {
-   "email": "user@email.com",
-   "password": "123456"
+    "email": "user@email.com",
+    "password": "123456"
 }
 ```
 
@@ -191,23 +97,41 @@ Resposta:
 
 ```json
 {
-   "status": 200,
-   "message": "authenticated"
+    "status": 200,
+    "message": "authenticated"
 }
 ```
 
----
+## Roadmap
 
-## Filosofia
+### v0.1
 
-PLOILT API busca unir:
+* [x] Servidor HTTP
+* [x] GET e POST
+* [x] Rotas
+* [x] Respostas JSON
+* [x] Controller de Health
 
-- Performance de baixo nível
-- Modularidade
-- Compatibilidade universal
-- Simplicidade de integração
+### v0.2
 
----
+* [x] Query strings
+* [x] Headers
+* [x] Leitura do corpo da requisição
+* [x] Parsing de JSON
+* [x] Integração com cJSON
+
+### v0.3
+
+* [ ] Integração entre Request, JSON e Controllers
+* [ ] Middleware
+* [ ] Logging
+* [ ] Configuração dinâmica
+
+### v1.0
+
+* [ ] CLI
+* [ ] Arquivo de configuração
+* [ ] Documentação
 
 ## Licença
 
