@@ -1,19 +1,25 @@
 #include "cJSON.h"
-#include "stdio.h"
-#include "stdlib.h"
-
-#include "request.h"
-
-int transform_cjson() {
-
-// Pega o json e transforma em cJSON
-
-const char *see_json = request_get_body(conn);
+#include <stdio.h>
 
 
+cJSON *transform_cjson(const char *json_string) {
 
-cJSON *json = cJSON_Parse(see_json);
+    // Pega o json e transforma em cJSON
+    cJSON *json = cJSON_Parse(json_string);
 
+  return json;
+}
 
+cJSON *tratamento_json (cJSON *json) {
+    // verifica se o json é nulo
+    if (json != NULL) {
 
-};
+    return json;
+    }
+
+    else {
+        // se não
+        printf("Erro ao transformar a string JSON em cJSON: %s\n", cJSON_GetErrorPtr());
+        return NULL;
+    }
+}
